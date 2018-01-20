@@ -1,5 +1,5 @@
 
-def computepay():
+def computepay(hours,rate):
 
     try:
         hours=input('Enter number of hours: ')
@@ -12,4 +12,4 @@ def computepay():
             print(hours * rate)
     except:
         print("Enter a valid number")
-computepay()
+computepay(20,12)
